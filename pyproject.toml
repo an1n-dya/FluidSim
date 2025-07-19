@@ -1,0 +1,16 @@
+[project]
+name = "FluidSim"
+version = "0.1.0"
+description = "A simple 2D fluid simulator with visual effects."
+authors = [{ name = "Gemini", email = "no-reply@google.com" }]
+dependencies = [
+    "pygame-ce>=2.5.0",
+    "numpy>=1.26.0",
+    "scipy>=1.13.0",
+    "pyaudio>=0.2.14",
+    "pygame-gui>=0.6.9",
+]
+
+[build-system]
+requires = ["uv>=0.1.37"]
+build-backend = "uv.backend"
